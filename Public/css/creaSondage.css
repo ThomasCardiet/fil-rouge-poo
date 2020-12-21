@@ -1,0 +1,79 @@
+.poll_create, .polls_list{
+    text-align: center;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: grey 0px 2px 2px;
+    margin: 5% auto auto;
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.form input{
+    border: none;
+    background-color: #F6F7FB;
+    height: 50px;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+label{
+    margin-top: 2%;
+}
+
+#button{
+    margin-top: 10px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    background: var(--base1);
+    color: white;
+    padding: 1%;
+    font-size: 14px;
+    border-radius: 20px;
+
+
+}
+
+#button:hover{
+    background: #ffffff;
+    color: var(--base1);
+    border: var(--base3) solid;
+}
+
+.polls_list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.line-polls {
+    margin: auto;
+    width: calc((100% - 20%) / 3);
+    border-radius: 50%;
+    border: black solid 1px;
+}
+
+.line-polls > h2 {
+    text-align: center;
+    font-family: var(--font_title2);
+    font-size: 1.5em;
+}
+
+.line-polls > a {
+    background-color: var(--base2);
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.line-polls > a:hover {
+    cursor: pointer;
+    background-color: var(--base1);
+}

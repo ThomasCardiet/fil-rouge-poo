@@ -1,0 +1,129 @@
+main {
+    margin-top: 50px;
+}
+
+.question {
+    font-weight: bold;
+    font-size: 4em;
+    font-family: var(--font_title1);
+    text-align: center;
+    border: black 5px solid;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: var(--background_sondage);
+}
+
+.pseudo {
+    font-weight: bold;
+    font-size: 3em;
+    font-family: var(--font_title1);
+    text-align: center;
+    border: black 5px solid;
+    border-radius: 20px;
+    background-color: var(--background_sondage);
+    padding: 2%;
+}
+
+.results {
+    font-weight: bold;
+    font-size: 4em;
+    font-family: var(--font_title1);
+    border: black 5px solid;
+    border-radius: 20px;
+    background-color: var(--background_sondage);
+    padding: 5%;
+}
+
+.responses form div{
+    font-size: 5em;
+    padding: 2%;
+    width: 95%;
+    font-weight: bold;
+    font-family: var(--font_title1);
+    border: black 5px solid;
+    border-radius: 20px;
+    background-color: var(--background_sondage);
+}
+
+input[type=checkbox] {
+
+    width: 50px;
+    height: 50px;
+}
+
+.responses {
+    width: 90%;
+    margin: auto;
+}
+
+.button {
+    border-radius: 10px;
+    background-color: var(--base4);
+    border: outset 5px var(--base3);
+    color: var(--base2);
+    font-family: var(--font_title2), sans-serif;
+    font-size: 6em;
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .burger_icons .fas:hover {
+        cursor: pointer;
+        color: var(--base1);
+    }
+
+    .burger_icons .fas {
+        font-size: 2em;
+    }
+
+    .head_title h1 {
+        font-size: 3em;
+        padding-top: 50px;
+    }
+
+    .header_links a:hover {
+        color: var(--base1);
+    }
+
+    main {
+        width: 90%;
+        margin: auto;
+    }
+
+    .responses form {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .responses form div {
+        width: 35%;
+        padding: 5%;
+        margin: auto;
+        font-size: 2em;
+    }
+
+    input[type=checkbox] {
+
+        width: 30px;
+        height: 30px;
+    }
+
+    input[type=checkbox]:hover {
+
+        cursor: pointer;
+    }
+
+    .button {
+        margin-top: 60px;
+    }
+
+    .button:hover {
+        color: black;
+        background-color: var(--base2);
+        cursor: pointer;
+    }
+
+}

@@ -1,0 +1,35 @@
+main {
+    width: 80%;
+    margin: 20px auto 0 auto;
+    background-color: white;
+    padding: 20px 0;
+}
+
+main > h1 {
+    text-align: center;
+    font-family: var(--font_title1);
+}
+
+form {
+    width: 40%;
+    margin: auto;
+}
+
+.line {
+    font-size: 1.2em;
+}
+
+.line > input, .line > button {
+    font-size: 1.5em;
+}
+
+
+.titre_infos {
+    font-size: 1.5em;
+    font-family: var(--font_title2);
+}
+
+.warn_msg {
+    text-align: center;
+    font-size: 1.5em;
+}

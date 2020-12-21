@@ -1,0 +1,15 @@
+main{
+    text-align: center;
+    width: 80%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 20px;
+    box-shadow: grey 0 2px 2px;
+    margin: 5% auto auto;
+}
+
+.responses {
+    width: 70%;
+    margin: 10% auto 0;
+    font-size: 1.8em;
+}

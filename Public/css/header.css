@@ -1,0 +1,109 @@
+:root {
+
+    --base8             : #181818;
+    --base7             : #DB222A;
+    --base4             : #1F7A8C;
+    --base3             : #053C5E;
+    --base2             : #BFDBF7;
+    --base1             : #A31621;
+
+    --background_header : white;
+    --background_sondage : white;
+    --title             : #151414;
+
+    --font_title2            : 'acmeregular';
+    --font_title1           : 'pacificoregular';
+
+}
+
+@font-face {
+    font-family: 'pacificoregular';
+    src: url('../fonts/pacifico-regular-webfont.woff2') format('woff2'),
+    url('../fonts/pacifico-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'acmeregular';
+    src: url('../fonts/acme-regular-webfont.woff2') format('woff2'),
+    url('../fonts/acme-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+    background: url("../img/background.png") no-repeat fixed;
+    background-size: cover;
+}
+
+header .header_top {
+    background-color: var(--background_header);
+    border-radius: 20px;
+}
+
+.head_title img {
+    max-width: 25%;
+}
+
+header div {
+    display: flex;
+}
+
+header div .head_title {
+    color: var(--title);
+    display: flex;
+    padding: 5%;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: var(--font_title2), sans-serif;
+    width: 65%;
+    margin: auto;
+}
+
+header .burger_icons {
+    font-size: 5em;
+    padding: 5%;
+    align-items: center;
+}
+
+.burger_icons > i:hover {
+    cursor: pointer;
+}
+
+header .header_links {
+    font-size: 3em;
+    text-align: center;
+    background-color: var(--background_header);
+}
+
+header .header_links a {
+    text-decoration: none;
+    color: var(--title);
+    font-family: var(--font_title2), sans-serif;
+    font-weight: bold;
+}
+
+.header_links hr {
+    height: 3px;
+    background-color: var(--base8);
+    opacity: 30%;
+}
+
+.connexion_msg {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+    display: block;
+    margin: 20px auto;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .header_links a:hover {
+        color: var(--base1);
+    }
+
+}

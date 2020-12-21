@@ -1,0 +1,88 @@
+main {
+    margin-top: 50px;
+}
+
+.sondage {
+    background-color: rgba(0, 67, 88, 0.38);
+    border-radius: 80%;
+    padding-bottom: 100px;
+}
+
+.sondage h2 {
+    font-weight: bold;
+    font-size: 3em;
+    font-family: var(--font_title1);
+    text-align: center;
+    border: black 5px solid;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: var(--background_sondage);
+}
+
+.sondage_icon {
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.sondage_icon img {
+    width: 100%;
+    border-radius: 50%;
+    border: var(--background_sondage) 5px solid;
+    margin: auto;
+    background-color: var(--base2);
+}
+
+.sondage a {
+    text-decoration: none;
+    color: var(--font_title2);
+    font-family: var(--font_title2);
+    font-weight: bold;
+    font-size: 3em;
+    border: black 5px solid;
+    padding: 5%;
+    border-radius: 10px;
+    background-color: var(--background_sondage);
+}
+
+.sondage_desc div {
+    text-align: center;
+}
+
+@media screen and (min-width: 1000px) {
+
+    .burger_icons .fas:hover {
+        cursor: pointer;
+        color: var(--base1);
+    }
+
+    .burger_icons .fas {
+        font-size: 2em;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: auto;
+    }
+
+    .sondage {
+        width: 40%;
+        margin: auto;
+    }
+
+    .sondage h2 {
+        font-size: 2em;
+    }
+
+    .sondage a {
+        font-size: 1.5em;
+    }
+
+    .sondage_desc div a:hover {
+        background-color: var(--base1);
+        color: white;
+    }
+
+}

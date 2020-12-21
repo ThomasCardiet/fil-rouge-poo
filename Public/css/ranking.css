@@ -1,0 +1,62 @@
+main {
+    margin-top: 50px;
+}
+
+.podium_title {
+    font-weight: bold;
+    font-size: 5em;
+    font-family: var(--font_title1);
+    text-align: center;
+    border: black 5px solid;
+    padding: 5%;
+    border-radius: 20px;
+    background-color: var(--background_sondage);
+    text-transform: uppercase;
+}
+
+.place {
+    width: 80%;
+    margin: auto;
+    padding: 5%;
+}
+
+.place img {
+    width: 100%;
+}
+
+.place p {
+    font-weight: bold;
+    font-size: 4em;
+    font-family: var(--font_title1);
+    text-align: center;
+    border: black 5px solid;
+    padding: 3%;
+    border-radius: 20px;
+    background-color: var(--background_sondage);
+}
+
+@media screen and (min-width: 1000px) {
+
+    .burger_icons .fas:hover {
+        cursor: pointer;
+        color: var(--base1);
+    }
+
+    .burger_icons .fas {
+        font-size: 2em;
+    }
+
+    main {
+        width: 90%;
+        margin: auto;
+    }
+
+    .podium {
+        display: flex;
+    }
+
+    .place {
+        width: 40%;
+    }
+
+}
